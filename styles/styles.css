@@ -488,6 +488,10 @@ body {
     .bear {
         gap: 300px;
     }
+
+    p {
+        text-align: left;
+    }
 }
 
 
