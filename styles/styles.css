@@ -538,4 +538,8 @@ body {
     .buttonsContainer {
         flex-direction: column;
     }
+
+    .path1 {
+        margin-top: 40px;
+    }
 }
