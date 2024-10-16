@@ -485,9 +485,6 @@ body {
         margin-top: 150px;
     }
 
-    .bear {
-        gap: 300px;
-    }
 
     p {
         text-align: left;
@@ -540,4 +537,10 @@ body {
     .baseline {
         line-height: 30px;
     }
+
+    .bear {
+        gap: 450px;
+    }
+
+
 }
