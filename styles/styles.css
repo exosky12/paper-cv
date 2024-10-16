@@ -55,17 +55,6 @@ table {
 
 /* End of reset.css */
 
-@font-face {
-    font-family: 'Comico';
-    src: url('../assets/Comico_complete/Fonts/WEB/fonts/Comico-Regular.woff2') format('woff2'),
-    url('../assets/Comico_complete/Fonts/WEB/fonts/Comico-Regular.woff') format('woff'),
-    url('../assets/Comico_complete/Fonts/WEB/fonts/Comico-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-display: swap;
-    font-style: normal;
-}
-
-
 body {
     min-height: 100vh;
     min-width: 100vw;
@@ -73,12 +62,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    font-family: Comico, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    font-family: "Chilanka", cursive;
+    font-weight: 400;
+    font-style: normal;
     gap: 300px;
 }
 
@@ -134,8 +125,8 @@ body {
 }
 
 .history p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .beginnings {
@@ -182,8 +173,8 @@ body {
 }
 
 .designDiscovery p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .designDiscovery img {
@@ -205,8 +196,8 @@ body {
 }
 
 .projects p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .projects .projectsContainer {
@@ -259,8 +250,8 @@ body {
 }
 
 .projects .projectsContainer .project .projectContent p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 .projects .projectsContainer .project .projectContent .buttonsContainer {
@@ -295,8 +286,8 @@ body {
 }
 
 .moreAboutMe p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .school {
@@ -314,8 +305,8 @@ body {
 }
 
 .school p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .bear {
@@ -355,8 +346,8 @@ body {
 }
 
 .bear p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .bearStudio {
@@ -374,8 +365,8 @@ body {
 }
 
 .bearStudio p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .whyAmI {
@@ -393,8 +384,8 @@ body {
 }
 
 .whyAmI p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .socials {
